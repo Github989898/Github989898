@@ -1,3 +1,7 @@
+# 内容：streameast直播
+DOMAIN-SUFFIX,.space
+
+
 # 内容：YouTube
 # 数量：17条
 USER-AGENT,*youtube*
