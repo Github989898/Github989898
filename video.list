@@ -65,7 +65,6 @@ DOMAIN-SUFFIX,twitchcdn.net
 # 内容：TikTok
 # 数量：11条
 USER-AGENT,TikTok*
-USER-AGENT,com.zhiliaoapp.musically*
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
