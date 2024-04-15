@@ -1,0 +1,29 @@
+proxies:
+   
+    - { name: 香港06, type: trojan, server: ppg-hk.05vr9nyqg5.download, port: 10806, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false }
+    - { name: 日本06, type: trojan, server: ppg-jp.05vr9nyqg5.download, port: 10816, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false }    
+    - { name: 新加坡06, type: trojan, server: ppg-sg.05vr9nyqg5.download, port: 10832, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false }
+    - { name: 🇺🇸美国凤凰城1号, server: 129.153.75.202, port: 443, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇺🇸美国凤凰城2号, server: 129.153.80.156, port: 443, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇺🇸美国凤凰城3号, server: 158.101.37.59, port: 443, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇺🇸美国凤凰城4号, server: 129.146.249.162, port: 443, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇯🇵日本-0.1倍率, server: 205.178.183.33, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇸🇬新加坡-0.1倍率, server: 205.178.183.164, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇳🇱荷兰, server: 176.97.210.253, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: '🇫🇷法国 Hy2', server: 62.210.71.30, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇸🇪瑞典斯德哥尔摩-3倍率, server: 129.151.193.163, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇩🇪德国法兰克福, server: 138.2.179.192, port: 443, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇩🇪德国法兰克福2, server: 152.70.176.68, port: 443, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇧🇷巴西圣保罗-1.5倍率, server: 168.75.85.171, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇺🇸美国芝加哥, server: 207.211.179.132, port: 443, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇦🇪迪拜-1.2倍率, server: 139.185.32.100, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇦🇪迪拜2-1.5倍率, server: 139.185.34.29, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇰🇷韩国春川-3倍率, server: 146.56.114.61, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇰🇷韩国春川2-3倍率, server: 158.180.71.143, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇦🇺澳大利亚悉尼-1.5倍率, server: 192.9.186.104, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇦🇺澳大利亚墨尔本-1.6倍率, server: 152.69.186.200, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇮🇳印度孟买-3倍率, server: 144.24.99.141, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇮🇳印度海得拉巴-3倍率, server: 144.24.146.216, port: 443, udp: true, skip-cert-verify: true, sni: www.hoyoverse.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇬🇧英国伦敦-2倍率, server: 132.145.52.10, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇬🇧英国伦敦2-1.8倍率, server: 132.145.28.17, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
+    - { name: 🇿🇦非洲约翰内斯堡-3.5倍率, server: 129.151.169.64, port: 443, udp: true, skip-cert-verify: true, sni: www.microsoft.com, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03 }
