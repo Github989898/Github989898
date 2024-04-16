@@ -15,18 +15,91 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: "[Trojan] 🇺🇲 泡泡狗US6", server: ppg-us.05vr9nyqg5.download, port: 10824, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
-  - {name: "[Trojan] 🇸🇬 泡泡狗SG6", server: ppg-sg.05vr9nyqg5.download, port: 10832, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
-  - {name: "[Trojan] 🇹🇼 泡泡狗TW1", server: ppg-other.05vr9nyqg5.download, port: 10835, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
   - {name: "[Hysteria2] 🇺🇲 美国凤凰城1号", server: 129.153.75.202, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇺🇲 美国凤凰城2号", server: 129.153.80.156, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇺🇲 美国凤凰城3号", server: 158.101.37.59, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇺🇲 美国凤凰城4号", server: 129.146.249.162, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 日本-0.1倍率", server: 205.178.183.33, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇸🇬 新加坡-0.1倍率", server: 205.178.183.164, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇳🇱 荷兰", server: 176.97.210.253, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇫🇷 法国 Hy2", server: 62.210.71.30, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇩🇪 德国法兰克福", server: 138.2.179.192, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇩🇪 德国法兰克福2", server: 152.70.176.68, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇧🇷 巴西圣保罗-1.5倍率", server: 168.75.85.171, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇺🇲 美国芝加哥", server: 207.211.179.132, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇸🇦 迪拜2-1.5倍率", server: 139.185.34.29, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇦🇺 澳大利亚悉尼-1.5倍率", server: 192.9.186.104, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇦🇺 澳大利亚墨尔本-1.6倍率", server: 152.69.186.200, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇬🇧 英国伦敦2-1.8倍率", server: 132.145.28.17, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 非洲约翰内斯堡-3.5倍率", server: 129.151.169.64, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "[Vless] 🇭🇰 香港1号-0.1倍率", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/hk1, headers: {Host: djjchk1.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇭🇰 香港2号-0.1倍率", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/hk1, headers: {Host: djjchk1.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇳🇱 荷兰-0.1倍率", server: 176.97.210.253, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: djdownloadnl1.xn--4gq62f52gopi49k.com, network: tcp, udp: true}
+  - {name: "[Vless] 🇭🇰 香港-1倍率", server: 178.173.236.235, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: djdownloadhk.xn--4gq62f52gopi49k.com, network: tcp, udp: true}
+  - {name: "[Vless] 🇭🇰 香港2-1倍率", server: 178.173.236.235, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: djdownloadhk.xn--4gq62f52gopi49k.com, network: tcp, udp: true}
+  - {name: "[Vless] 🇩🇪 德国-1倍率", server: 5.104.107.143, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: a9e9-db2f1e2.xn--4gq62f52gopi49k.com, network: tcp, udp: true}
+  - {name: "[Vless] 🇺🇲 美国1号-0.1倍", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: k12us1.djjc.sbs, network: ws, ws-opts: {path: /djjc/us1, headers: {Host: k12us1.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇺🇲 美国2号-0.1倍", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: k4us2.djjc.sbs, network: ws, ws-opts: {path: /djjc/us2, headers: {Host: k4us2.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇺🇲 美国3号-0.1倍", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: k11us3.djjc.sbs, network: ws, ws-opts: {path: /djjc/us3, headers: {Host: k11us3.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇯🇵 日本-0.1倍", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: k5jp1.djjc.sbs, network: ws, ws-opts: {path: /djjc/jp1, headers: {Host: k5jp1.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇸🇬 新加坡-0.1倍", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: k10sg1.djjc.sbs, network: ws, ws-opts: {path: /djjc/sg1, headers: {Host: k10sg1.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇫🇷 法国", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: k2fr1.djjc.sbs, network: ws, ws-opts: {path: /djjc/fr1, headers: {Host: k2fr1.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇫🇷 法国2", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: kfr2.djjc.sbs, network: ws, ws-opts: {path: /djjc/fr2, headers: {Host: kfr2.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇩🇪 德国", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: k10de1.djjc.sbs, network: ws, ws-opts: {path: /djjc/de1, headers: {Host: k10de1.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇳🇱 荷兰-0.1倍", server: 185.146.173.29, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, servername: nl4.djjc.sbs, network: ws, ws-opts: {path: /djjc/nl1, headers: {Host: nl4.djjc.sbs}}, udp: true}
+  - {name: "[Vless] 🇹🇼 台湾—TK专线", server: c8217-b2a.h1.49d2.5e11.613.b297.djjsvip.cfd, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: djdownloadtw1.xn--4gq62f52gopi49k.com, network: tcp, udp: true}
+  - {name: "[Vless] 🇭🇰 香港hkt2-1.8倍率", server: c8217-b2a.h3.49d2.5e11.613.b297.djjsvip.cfd, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: djdownloadhk2.xn--4gq62f52gopi49k.com, network: tcp, udp: true}
+  - {name: "[SS] 🇭🇰 香港1|流媒体解锁", server: 1.6bnw.top, port: 19527, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 009f1e64-06e6-4da3-baf6-637024e540f4, tfo: false, udp: true}
+  - {name: "[SS] 🇭🇰 香港7", server: 1.6bnw.top, port: 19528, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 009f1e64-06e6-4da3-baf6-637024e540f4, tfo: false, udp: true}
+  - {name: "[SS] 🇯🇵 泡泡狗JP1", server: 1.6bnw.top, port: 19529, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 009f1e64-06e6-4da3-baf6-637024e540f4, tfo: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK1", server: ppg-hk.05vr9nyqg5.download, port: 10801, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK2", server: ppg-hk.05vr9nyqg5.download, port: 10802, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK3", server: ppg-hk.05vr9nyqg5.download, port: 10803, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK4", server: ppg-hk.05vr9nyqg5.download, port: 10804, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK5", server: ppg-hk.05vr9nyqg5.download, port: 10805, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK6", server: ppg-hk.05vr9nyqg5.download, port: 10806, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK7", server: ppg-hk.05vr9nyqg5.download, port: 10807, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK8", server: ppg-hk.05vr9nyqg5.download, port: 10808, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK9家宽", server: ppg-hk.05vr9nyqg5.download, port: 10809, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 泡泡狗HK10家宽", server: ppg-hk.05vr9nyqg5.download, port: 10810, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP1", server: ppg-jp.05vr9nyqg5.download, port: 10811, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP2", server: ppg-jp.05vr9nyqg5.download, port: 10812, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP3", server: ppg-jp.05vr9nyqg5.download, port: 10813, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP4", server: ppg-jp.05vr9nyqg5.download, port: 10814, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP5", server: ppg-jp.05vr9nyqg5.download, port: 10815, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP6", server: ppg-jp.05vr9nyqg5.download, port: 10816, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP7", server: ppg-jp.05vr9nyqg5.download, port: 10817, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇯🇵 泡泡狗JP8", server: ppg-jp.05vr9nyqg5.download, port: 10818, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US1", server: ppg-us.05vr9nyqg5.download, port: 10819, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US2", server: ppg-us.05vr9nyqg5.download, port: 10820, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US3", server: ppg-us.05vr9nyqg5.download, port: 10821, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US4", server: ppg-us.05vr9nyqg5.download, port: 10822, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US5", server: ppg-us.05vr9nyqg5.download, port: 10823, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US6", server: ppg-us.05vr9nyqg5.download, port: 10824, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US7", server: ppg-us.05vr9nyqg5.download, port: 10825, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇲 泡泡狗US8", server: ppg-us.05vr9nyqg5.download, port: 10826, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG1", server: ppg-sg.05vr9nyqg5.download, port: 10827, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG2", server: ppg-sg.05vr9nyqg5.download, port: 10828, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG3", server: ppg-sg.05vr9nyqg5.download, port: 10829, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG4", server: ppg-sg.05vr9nyqg5.download, port: 10830, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG5", server: ppg-sg.05vr9nyqg5.download, port: 10831, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG6", server: ppg-sg.05vr9nyqg5.download, port: 10832, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG7", server: ppg-sg.05vr9nyqg5.download, port: 10833, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇬 泡泡狗SG8", server: ppg-sg.05vr9nyqg5.download, port: 10834, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇹🇼 泡泡狗TW1", server: ppg-other.05vr9nyqg5.download, port: 10835, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇰🇷 韩国01", server: ppg-other.05vr9nyqg5.download, port: 10836, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇬🇧 英国01", server: ppg-other.05vr9nyqg5.download, port: 10837, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇫🇷 法国01", server: ppg-other.05vr9nyqg5.download, port: 10838, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇩🇪 德国01", server: ppg-other.05vr9nyqg5.download, port: 10839, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇮🇳 印度01", server: ppg-other.05vr9nyqg5.download, port: 10840, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇦 迪拜01", server: ppg-other.05vr9nyqg5.download, port: 10841, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇷🇺 俄罗斯01", server: ppg-other.05vr9nyqg5.download, port: 10844, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇺🇦 乌克兰01", server: ppg-other.05vr9nyqg5.download, port: 10845, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇹🇷 土耳其01", server: ppg-other.05vr9nyqg5.download, port: 10846, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇪🇸 西班牙01", server: ppg-other.05vr9nyqg5.download, port: 10847, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇦🇹 奥地利01", server: ppg-other.05vr9nyqg5.download, port: 10848, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇮🇹 意大利01", server: ppg-other.05vr9nyqg5.download, port: 10849, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇮🇪 爱尔兰01", server: ppg-other.05vr9nyqg5.download, port: 10850, client-fingerprint: chrome, type: trojan, password: 02ecb8dc-b12f-4f30-97a1-43aa261b0321, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: fallback
@@ -35,12 +108,14 @@ proxy-groups:
     proxies:
       - 🐶 泡泡狗
       - 🛩️ 顶级机场
+      - ✈️ 牛逼机场
   - name: 🚧 自我定义
     type: fallback
     url: http://www.apple.com/library/test/success.html
     interval: 90
     proxies:
       - 🛩️ 顶级机场
+      - ✈️ 牛逼机场
       - 🐶 泡泡狗
   - name: 🐶 泡泡狗
     type: url-test
@@ -61,11 +136,35 @@ proxy-groups:
       - "[Hysteria2] 🇺🇲 美国凤凰城2号"
       - "[Hysteria2] 🇺🇲 美国凤凰城3号"
       - "[Hysteria2] 🇺🇲 美国凤凰城4号"
+      - "[Hysteria2] 🇯🇵 日本-0.1倍率"
+      - "[Hysteria2] 🇸🇬 新加坡-0.1倍率"
       - "[Hysteria2] 🇳🇱 荷兰"
       - "[Hysteria2] 🇫🇷 法国 Hy2"
       - "[Hysteria2] 🇩🇪 德国法兰克福"
       - "[Hysteria2] 🇩🇪 德国法兰克福2"
+      - "[Hysteria2] 🇧🇷 巴西圣保罗-1.5倍率"
       - "[Hysteria2] 🇺🇲 美国芝加哥"
+      - "[Hysteria2] 🇸🇦 迪拜2-1.5倍率"
+      - "[Hysteria2] 🇦🇺 澳大利亚悉尼-1.5倍率"
+      - "[Hysteria2] 🇦🇺 澳大利亚墨尔本-1.6倍率"
+      - "[Hysteria2] 🇬🇧 英国伦敦2-1.8倍率"
+  - name: ✈️ 牛逼机场
+    type: url-test
+    url: http://www.apple.com/library/test/success.html
+    interval: 1800
+    tolerance: 200
+    proxies:
+      - "[SS] 🇭🇰 香港1|流媒体解锁"
+      - "[SS] 🇭🇰 香港7"
+      - "[SS] 🇯🇵 泡泡狗JP1"
+  - name: 🛫 telegram
+    type: url-test
+    url: http://www.apple.com/library/test/success.html
+    interval: 120
+    tolerance: 200
+    proxies:
+      - "[Hysteria2] 🇸🇬 新加坡-0.1倍率"
+      - "[Vless] 🇸🇬 新加坡-0.1倍"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -106,6 +205,19 @@ rules:
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
   - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
   - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
+  - DOMAIN-KEYWORD,telegram,🛫 telegram
+  - DOMAIN-SUFFIX,t.me,🛫 telegram
+  - DOMAIN-SUFFIX,tdesktop.com,🛫 telegram
+  - DOMAIN-SUFFIX,telegra.ph,🛫 telegram
+  - DOMAIN-SUFFIX,telegram.me,🛫 telegram
+  - DOMAIN-SUFFIX,telegram.org,🛫 telegram
+  - DOMAIN-SUFFIX,telesco.pe,🛫 telegram
+  - IP-CIDR,91.108.0.0/16,🛫 telegram,no-resolve
+  - IP-CIDR,109.239.140.0/24,🛫 telegram,no-resolve
+  - IP-CIDR,149.154.160.0/20,🛫 telegram,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🛫 telegram,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🛫 telegram,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🛫 telegram,no-resolve
   - DOMAIN-KEYWORD,ttvnw,🚧 自我定义
   - DOMAIN-SUFFIX,ext-twitch.tv,🚧 自我定义
   - DOMAIN-SUFFIX,jtvnw.net,🚧 自我定义
@@ -123,19 +235,6 @@ rules:
   - DOMAIN-SUFFIX,tiktok.com,🚧 自我定义
   - DOMAIN-SUFFIX,tiktokcdn.com,🚧 自我定义
   - DOMAIN-SUFFIX,tiktokv.com,🚧 自我定义
-  - DOMAIN-KEYWORD,telegram,🚧 自我定义
-  - DOMAIN-SUFFIX,t.me,🚧 自我定义
-  - DOMAIN-SUFFIX,tdesktop.com,🚧 自我定义
-  - DOMAIN-SUFFIX,telegra.ph,🚧 自我定义
-  - DOMAIN-SUFFIX,telegram.me,🚧 自我定义
-  - DOMAIN-SUFFIX,telegram.org,🚧 自我定义
-  - DOMAIN-SUFFIX,telesco.pe,🚧 自我定义
-  - IP-CIDR,91.108.0.0/16,🚧 自我定义,no-resolve
-  - IP-CIDR,109.239.140.0/24,🚧 自我定义,no-resolve
-  - IP-CIDR,149.154.160.0/20,🚧 自我定义,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,🚧 自我定义,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,🚧 自我定义,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,🚧 自我定义,no-resolve
   - DOMAIN-KEYWORD,youtube,🚧 自我定义
   - DOMAIN,youtubei.googleapis.com,🚧 自我定义
   - DOMAIN,yt3.ggpht.com,🚧 自我定义
