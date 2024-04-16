@@ -31,7 +31,6 @@ proxies:
   - {name: "[Hysteria2] 🇦🇺 澳大利亚悉尼-1.5倍率", server: 192.9.186.104, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇦🇺 澳大利亚墨尔本-1.6倍率", server: 152.69.186.200, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
   - {name: "[Hysteria2] 🇬🇧 英国伦敦2-1.8倍率", server: 132.145.28.17, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 非洲约翰内斯堡-3.5倍率", server: 129.151.169.64, port: 443, client-fingerprint: chrome, type: hysteria2, password: 9f4a1fef-8d39-4450-8421-989e833eed03, auth: 9f4a1fef-8d39-4450-8421-989e833eed03, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
   - {name: "[Vless] 🇭🇰 香港1号-0.1倍率", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/hk1, headers: {Host: djjchk1.djjc.sbs}}, udp: true}
   - {name: "[Vless] 🇭🇰 香港2号-0.1倍率", server: 77.75.199.163, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/hk1, headers: {Host: djjchk1.djjc.sbs}}, udp: true}
   - {name: "[Vless] 🇳🇱 荷兰-0.1倍率", server: 176.97.210.253, port: 443, client-fingerprint: chrome, type: vless, uuid: 9f4a1fef-8d39-4450-8421-989e833eed03, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: djdownloadnl1.xn--4gq62f52gopi49k.com, network: tcp, udp: true}
@@ -123,7 +122,6 @@ proxy-groups:
     interval: 1800
     tolerance: 200
     proxies:
-      - "[Trojan] 🇺🇲 泡泡狗US6"
       - "[Trojan] 🇸🇬 泡泡狗SG6"
       - "[Trojan] 🇹🇼 泡泡狗TW1"
   - name: 🛩️ 顶级机场
@@ -157,14 +155,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港1|流媒体解锁"
       - "[SS] 🇭🇰 香港7"
       - "[SS] 🇯🇵 泡泡狗JP1"
-  - name: 🛫 telegram
-    type: url-test
-    url: http://www.apple.com/library/test/success.html
-    interval: 120
-    tolerance: 200
-    proxies:
-      - "[Hysteria2] 🇸🇬 新加坡-0.1倍率"
-      - "[Vless] 🇸🇬 新加坡-0.1倍"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,19 +195,6 @@ rules:
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
   - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
   - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
-  - DOMAIN-KEYWORD,telegram,🛫 telegram
-  - DOMAIN-SUFFIX,t.me,🛫 telegram
-  - DOMAIN-SUFFIX,tdesktop.com,🛫 telegram
-  - DOMAIN-SUFFIX,telegra.ph,🛫 telegram
-  - DOMAIN-SUFFIX,telegram.me,🛫 telegram
-  - DOMAIN-SUFFIX,telegram.org,🛫 telegram
-  - DOMAIN-SUFFIX,telesco.pe,🛫 telegram
-  - IP-CIDR,91.108.0.0/16,🛫 telegram,no-resolve
-  - IP-CIDR,109.239.140.0/24,🛫 telegram,no-resolve
-  - IP-CIDR,149.154.160.0/20,🛫 telegram,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,🛫 telegram,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,🛫 telegram,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,🛫 telegram,no-resolve
   - DOMAIN-KEYWORD,ttvnw,🚧 自我定义
   - DOMAIN-SUFFIX,ext-twitch.tv,🚧 自我定义
   - DOMAIN-SUFFIX,jtvnw.net,🚧 自我定义
