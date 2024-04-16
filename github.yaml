@@ -45,7 +45,7 @@ proxy-groups:
   - name: 🐶 泡泡狗
     type: url-test
     url: http://www.apple.com/library/test/success.html
-    interval: 120
+    interval: 1800
     tolerance: 200
     proxies:
       - "[Trojan] 🇺🇲 泡泡狗US6"
@@ -54,7 +54,7 @@ proxy-groups:
   - name: 🛩️ 顶级机场
     type: url-test
     url: http://www.apple.com/library/test/success.html
-    interval: 120
+    interval: 1800
     tolerance: 200
     proxies:
       - "[Hysteria2] 🇺🇲 美国凤凰城1号"
