@@ -103,13 +103,12 @@ proxy-groups:
       - ✈️ 牛逼机场
       - 🐶 泡泡狗
   - name: 🐶 泡泡狗
-    type: url-test
+    type: fallback
     url: http://www.apple.com/library/test/success.html
-    interval: 1823
-    tolerance: 200
+    interval: 590
     proxies:
-      - "[Trojan] 🇸🇬 新加坡06"
       - "[Trojan] 🇹🇼 台湾01"
+      - "[Trojan] 🇰🇷 韩国01"
       - "[Trojan] 🇸🇦 迪拜01"
   - name: 🛩️ 顶级机场
     type: url-test
