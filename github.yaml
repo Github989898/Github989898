@@ -191,6 +191,20 @@ rules:
   - DOMAIN-SUFFIX,tiktok.com,🚧 自我定义
   - DOMAIN-SUFFIX,tiktokcdn.com,🚧 自我定义
   - DOMAIN-SUFFIX,tiktokv.com,🚧 自我定义
+  - DOMAIN-KEYWORD,youtube,🚧 自我定义
+  - DOMAIN,youtubei.googleapis.com,🚧 自我定义
+  - DOMAIN,yt3.ggpht.com,🚧 自我定义
+  - DOMAIN-SUFFIX,googlevideo.com,🚧 自我定义
+  - DOMAIN-SUFFIX,gvt2.com,🚧 自我定义
+  - DOMAIN-SUFFIX,withyoutube.com,🚧 自我定义
+  - DOMAIN-SUFFIX,youtu.be,🚧 自我定义
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🚧 自我定义
+  - DOMAIN-SUFFIX,youtube.com,🚧 自我定义
+  - DOMAIN-SUFFIX,youtubeeducation.com,🚧 自我定义
+  - DOMAIN-SUFFIX,youtubegaming.com,🚧 自我定义
+  - DOMAIN-SUFFIX,youtubekids.com,🚧 自我定义
+  - DOMAIN-SUFFIX,yt.be,🚧 自我定义
+  - DOMAIN-SUFFIX,ytimg.com,🚧 自我定义
   - DOMAIN-KEYWORD,gmail,🚧 自我定义
   - DOMAIN-KEYWORD,google,🚧 自我定义
   - DOMAIN-SUFFIX,1e100.net,🚧 自我定义
