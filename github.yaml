@@ -107,8 +107,9 @@ proxy-groups:
     url: http://www.apple.com/library/test/success.html
     interval: 590
     proxies:
-      - "[Trojan] 🇸🇦 迪拜01"
-      - "[Trojan] 🇰🇷 韩国01"
+      - "[Trojan] 🇭🇰 香港06"
+      - "[Trojan] 🇭🇰 香港07"
+      - "[Trojan] 🇸🇬 新加坡06"
   - name: 🛩️ 顶级机场
     type: url-test
     url: http://www.apple.com/library/test/success.html
@@ -133,6 +134,21 @@ proxy-groups:
       - "[SS] 🇭🇰 香港1|流媒体解锁"
       - "[SS] 🇭🇰 香港7"
       - "[SS] 🇯🇵 日本01"
+  - name: ☁️ 谷歌专用
+    type: fallback
+    url: http://www.apple.com/library/test/success.html
+    interval: 150
+    proxies:
+      - 🚫 防止限制
+      - 🛩️ 顶级机场
+      - ✈️ 牛逼机场
+  - name: 🚫 防止限制
+    type: fallback
+    url: http://www.apple.com/library/test/success.html
+    interval: 490
+    proxies:
+      - "[Trojan] 🇸🇬 新加坡06"
+      - "[Trojan] 🇸🇦 迪拜01"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,6 +220,30 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🚧 自我定义
   - DOMAIN-SUFFIX,yt.be,🚧 自我定义
   - DOMAIN-SUFFIX,ytimg.com,🚧 自我定义
+  - DOMAIN-KEYWORD,gmail,☁️ 谷歌专用
+  - DOMAIN-KEYWORD,google,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,1e100.net,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,2mdn.net,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,app-measurement.net,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,g.co,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,ggpht.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,goo.gl,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,googleapis.cn,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,googleapis.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,gstatic.cn,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,gstatic.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,gvt0.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,gvt1.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,gvt2.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,gvt3.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,youtu.be,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,youtube-nocookie.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,youtube.com,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,yt.be,☁️ 谷歌专用
+  - DOMAIN-SUFFIX,ytimg.com,☁️ 谷歌专用
+  - IP-CIDR,74.125.0.0/16,☁️ 谷歌专用,no-resolve
+  - IP-CIDR,173.194.0.0/16,☁️ 谷歌专用,no-resolve
   - DOMAIN-KEYWORD,porn,🚧 自我定义
   - DOMAIN-SUFFIX,8teenxxx.com,🚧 自我定义
   - DOMAIN-SUFFIX,ahcdn.com,🚧 自我定义
