@@ -137,7 +137,7 @@ proxy-groups:
   - name: ☁️ 谷歌专用
     type: fallback
     url: http://www.apple.com/library/test/success.html
-    interval: 150
+    interval: 90
     proxies:
       - 🚫 防止限制
       - 🛩️ 顶级机场
