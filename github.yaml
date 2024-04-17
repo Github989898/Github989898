@@ -102,6 +102,14 @@ proxy-groups:
       - 🛩️ 顶级机场
       - ✈️ 牛逼机场
       - 🐶 泡泡狗
+  - name: ☁️ 谷歌专用
+    type: fallback
+    url: http://www.apple.com/library/test/success.html
+    interval: 90
+    proxies:
+      - 🚫 防止送中
+      - 🛩️ 顶级机场
+      - ✈️ 牛逼机场
   - name: 🐶 泡泡狗
     type: fallback
     url: http://www.apple.com/library/test/success.html
@@ -134,21 +142,14 @@ proxy-groups:
       - "[SS] 🇭🇰 香港1|流媒体解锁"
       - "[SS] 🇭🇰 香港7"
       - "[SS] 🇯🇵 日本01"
-  - name: ☁️ 谷歌专用
-    type: fallback
-    url: http://www.apple.com/library/test/success.html
-    interval: 90
-    proxies:
-      - 🚫 防止限制
-      - 🛩️ 顶级机场
-      - ✈️ 牛逼机场
-  - name: 🚫 防止限制
+  - name: 🚫 防止送中
     type: fallback
     url: http://www.apple.com/library/test/success.html
     interval: 490
     proxies:
       - "[Trojan] 🇸🇬 新加坡06"
-      - "[Trojan] 🇸🇦 迪拜01"
+      - "[Trojan] 🇹🇼 台湾01"
+      - "[Trojan] 🇰🇷 韩国01"
   - name: 🎯 全球直连
     type: select
     proxies:
