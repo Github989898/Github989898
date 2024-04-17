@@ -89,23 +89,15 @@ proxy-groups:
   - name: 🚀 节点选择
     type: fallback
     url: http://www.apple.com/library/test/success.html
-    interval: 90
+    interval: 91
     proxies:
       - 🐶 泡泡狗
-      - 🛩️ 顶级机场
-      - ✈️ 牛逼机场
-  - name: ☁️ 谷歌专用
-    type: fallback
-    url: http://www.apple.com/library/test/success.html
-    interval: 90
-    proxies:
-      - 🚫 防止送中
       - 🛩️ 顶级机场
       - ✈️ 牛逼机场
   - name: 🐶 泡泡狗
     type: fallback
     url: http://www.apple.com/library/test/success.html
-    interval: 590
+    interval: 591
     proxies:
       - "[Trojan] 🇭🇰 香港06"
       - "[Trojan] 🇭🇰 香港07"
@@ -113,8 +105,8 @@ proxy-groups:
   - name: 🛩️ 顶级机场
     type: url-test
     url: http://www.apple.com/library/test/success.html
-    interval: 1807
-    tolerance: 200
+    interval: 302
+    tolerance: 2000
     proxies:
       - "[Hysteria2] 🇺🇲 美国凤凰城1号"
       - "[Hysteria2] 🇺🇲 美国凤凰城2号"
@@ -128,28 +120,20 @@ proxy-groups:
   - name: ✈️ 牛逼机场
     type: url-test
     url: http://www.apple.com/library/test/success.html
-    interval: 1789
-    tolerance: 200
+    interval: 321
+    tolerance: 1000
     proxies:
       - "[SS] 🇭🇰 香港1|流媒体解锁"
       - "[SS] 🇭🇰 香港7"
       - "[SS] 🇯🇵 日本01"
-  - name: 🚫 防止送中
-    type: fallback
-    url: http://www.apple.com/library/test/success.html
-    interval: 490
-    proxies:
-      - "[Trojan] 🇸🇬 新加坡06"
-      - "[Trojan] 🇹🇼 台湾01"
-      - "[Trojan] 🇰🇷 韩国01"
   - name: 🚧 自我定义
     type: fallback
     url: http://www.apple.com/library/test/success.html
-    interval: 90
+    interval: 91
     proxies:
       - 🛩️ 顶级机场
       - ✈️ 牛逼机场
-      - 🐶 泡泡狗      
+      - 🐶 泡泡狗
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -207,30 +191,30 @@ rules:
   - DOMAIN-SUFFIX,tiktok.com,🚧 自我定义
   - DOMAIN-SUFFIX,tiktokcdn.com,🚧 自我定义
   - DOMAIN-SUFFIX,tiktokv.com,🚧 自我定义
-  - DOMAIN-KEYWORD,gmail,☁️ 谷歌专用
-  - DOMAIN-KEYWORD,google,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,1e100.net,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,2mdn.net,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,app-measurement.net,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,g.co,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,ggpht.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,goo.gl,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,googleapis.cn,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,googleapis.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,gstatic.cn,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,gstatic.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,gvt0.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,gvt1.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,gvt2.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,gvt3.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,youtu.be,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,youtube-nocookie.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,youtube.com,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,yt.be,☁️ 谷歌专用
-  - DOMAIN-SUFFIX,ytimg.com,☁️ 谷歌专用
-  - IP-CIDR,74.125.0.0/16,☁️ 谷歌专用,no-resolve
-  - IP-CIDR,173.194.0.0/16,☁️ 谷歌专用,no-resolve
+  - DOMAIN-KEYWORD,gmail,🚧 自我定义
+  - DOMAIN-KEYWORD,google,🚧 自我定义
+  - DOMAIN-SUFFIX,1e100.net,🚧 自我定义
+  - DOMAIN-SUFFIX,2mdn.net,🚧 自我定义
+  - DOMAIN-SUFFIX,app-measurement.net,🚧 自我定义
+  - DOMAIN-SUFFIX,g.co,🚧 自我定义
+  - DOMAIN-SUFFIX,ggpht.com,🚧 自我定义
+  - DOMAIN-SUFFIX,goo.gl,🚧 自我定义
+  - DOMAIN-SUFFIX,googleapis.cn,🚧 自我定义
+  - DOMAIN-SUFFIX,googleapis.com,🚧 自我定义
+  - DOMAIN-SUFFIX,gstatic.cn,🚧 自我定义
+  - DOMAIN-SUFFIX,gstatic.com,🚧 自我定义
+  - DOMAIN-SUFFIX,gvt0.com,🚧 自我定义
+  - DOMAIN-SUFFIX,gvt1.com,🚧 自我定义
+  - DOMAIN-SUFFIX,gvt2.com,🚧 自我定义
+  - DOMAIN-SUFFIX,gvt3.com,🚧 自我定义
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚧 自我定义
+  - DOMAIN-SUFFIX,youtu.be,🚧 自我定义
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🚧 自我定义
+  - DOMAIN-SUFFIX,youtube.com,🚧 自我定义
+  - DOMAIN-SUFFIX,yt.be,🚧 自我定义
+  - DOMAIN-SUFFIX,ytimg.com,🚧 自我定义
+  - IP-CIDR,74.125.0.0/16,🚧 自我定义,no-resolve
+  - IP-CIDR,173.194.0.0/16,🚧 自我定义,no-resolve
   - DOMAIN-KEYWORD,porn,🚧 自我定义
   - DOMAIN-SUFFIX,8teenxxx.com,🚧 自我定义
   - DOMAIN-SUFFIX,ahcdn.com,🚧 自我定义
