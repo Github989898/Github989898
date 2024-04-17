@@ -107,7 +107,6 @@ proxy-groups:
     url: http://www.apple.com/library/test/success.html
     interval: 590
     proxies:
-      - "[Trojan] 🇹🇼 台湾01"
       - "[Trojan] 🇰🇷 韩国01"
       - "[Trojan] 🇸🇦 迪拜01"
   - name: 🛩️ 顶级机场
