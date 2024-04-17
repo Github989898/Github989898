@@ -101,7 +101,7 @@ proxy-groups:
     proxies:
       - "[Trojan] 🇭🇰 香港06"
       - "[Trojan] 🇭🇰 香港07"
-      - "[Trojan] 🇸🇬 新加坡06"
+      - "[Trojan] 🇯🇵 日本06"
   - name: 🛩️ 顶级机场
     type: url-test
     url: http://www.apple.com/library/test/success.html
