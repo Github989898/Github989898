@@ -94,14 +94,6 @@ proxy-groups:
       - 🐶 泡泡狗
       - 🛩️ 顶级机场
       - ✈️ 牛逼机场
-  - name: 🚧 自我定义
-    type: fallback
-    url: http://www.apple.com/library/test/success.html
-    interval: 90
-    proxies:
-      - 🛩️ 顶级机场
-      - ✈️ 牛逼机场
-      - 🐶 泡泡狗
   - name: ☁️ 谷歌专用
     type: fallback
     url: http://www.apple.com/library/test/success.html
@@ -150,6 +142,14 @@ proxy-groups:
       - "[Trojan] 🇸🇬 新加坡06"
       - "[Trojan] 🇹🇼 台湾01"
       - "[Trojan] 🇰🇷 韩国01"
+  - name: 🚧 自我定义
+    type: fallback
+    url: http://www.apple.com/library/test/success.html
+    interval: 90
+    proxies:
+      - 🛩️ 顶级机场
+      - ✈️ 牛逼机场
+      - 🐶 泡泡狗      
   - name: 🎯 全球直连
     type: select
     proxies:
